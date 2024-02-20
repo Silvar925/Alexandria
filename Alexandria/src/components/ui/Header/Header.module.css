@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #06879AFF;
+    height: 80px;
+}
+
+header nav {
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav h1 {
+    font-family: 'Montserrat';
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 450;
+    color: white;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul li a:active {
+    color: black;
+}
+
+.profileBox {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.profileBox img {
+    border-radius: 50%;
+    height: 60px;
+}
+
+.profileBox_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileBox_info a {
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.profileBox_info p {
+    font-family: 'Montserrat';
+    gap: 10px;
+    color: white;
+}
