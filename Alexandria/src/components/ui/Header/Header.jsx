@@ -19,7 +19,7 @@ export const Header = () => {
                     <img src="defaulProfile.png" alt="#" />
 
                     <div className={styles.profileBox_info}>
-                        <a href="#">Ali Mamchuev</a>
+                        <a href="UserProfile">Ali Mamchuev</a>
                         <p>You id: 1</p>
                     </div>
                 </div>

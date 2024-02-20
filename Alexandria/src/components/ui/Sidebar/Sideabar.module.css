@@ -1,0 +1,22 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 5px;
+}
+
+.blockList {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
